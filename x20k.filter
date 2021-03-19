@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////
 // Name:    x-Filter - 20k
-// Version: 20.01
+// Version: 20.02
 // Author:  Xezis
 //////////////////////////////////////////////////
 
@@ -203,8 +203,11 @@ ItemDisplay[(crs OR fla) NMAG !ETH !RW SOCK=5]: %RED%[CTA] %GRAY%%NAME% %ORANGE%
 ItemDisplay[SK84=3 NMAG !ETH !RW (SOCK=0 OR SOCK=2) (bwn OR gwn OR 9yw OR 9bw OR 9gw OR 7wn OR 7yw OR 7bw OR 7gw)]: %RED%[WH!TE] %GRAY%%NAME% %ORANGE%[%SOCKETS%] %GOLD%(%PRICE%){%RED%[RW] White: %WHITE%DOL IO}
 
 // Memory
+ItemDisplay[SK58=3 NMAG !ETH !RW (SOCK=0 OR SOCK=4) (sst OR lst OR gst OR bst OR wst OR 8ss OR 8ls OR 8cs OR 8bs OR 8ws OR 6ss OR 6ls OR 6cs OR 6bs OR 6ws)]: %RED%[MEMORY] %GRAY%%NAME% %ORANGE%[%SOCKETS%] %GOLD%(%PRICE%){%RED%[RW] Memory: %WHITE%LUM IO SOL ETH}
 
 // Faith
+ItemDisplay[(amb OR amc) NMAG !ETH !RW SOCK=4]: %RED%[FAITH] %GRAY%%NAME% %ORANGE%[%SOCKETS%] %GOLD%(%PRICE%){%RED%[RW] Faith: %WHITE%OHM JAH LEM ELD}
+ItemDisplay[6cb          NMAG  ETH !RW SOCK=4]: %RED%[FAITH] %WHITE%[ETH] %GRAY%%NAME% %ORANGE%[%SOCKETS%] %GOLD%(%PRICE%){%RED%[RW] Faith: %WHITE%OHM JAH LEM ELD}
 
 // Infinity / Insight / Pride
 ItemDisplay[(7s8 OR 7wc) NMAG !ETH !RW SOCK=4]: %RED%[INFINITY]%RED%[INSIGHT]%RED%[PRIDE] %GRAY%%NAME% %ORANGE%[%SOCKETS%] %GOLD%(%PRICE%){%RED%[RW] Infinity: %WHITE%BER MAL BER IST%NL%%RED%[RW] Insight: %WHITE%RAL TIR TAL SOL%NL%%RED%[RW] Pride: %WHITE%CHAM SUR IO LO}
@@ -216,6 +219,7 @@ ItemDisplay[(7s8 OR 7wc) NMAG  ETH !RW SOCK=5]: %RED%[DOOM]%RED%[OBEDIENCE] %WHI
 
 // Beast / Grief
 ItemDisplay[(7cr OR 7wa) NMAG !ETH !RW SOCK=5]: %RED%[BEAST]%RED%[GRIEF] %GRAY%%NAME% %ORANGE%[%SOCKETS%] %GOLD%(%PRICE%){%RED%[RW] Beast: %WHITE%BER TIR UM MAL LUM%NL%%RED%[RW] Grief: %WHITE%ETH TIR LO MAL RAL}
+ItemDisplay[7cr          NMAG  ETH !RW SOCK=5]: %RED%[BEAST]%RED%[GRIEF] %WHITE%[ETH] %GRAY%%NAME% %ORANGE%[%SOCKETS%] %GOLD%(%PRICE%){%RED%[RW] Beast: %WHITE%BER TIR UM MAL LUM%NL%%RED%[RW] Grief: %WHITE%ETH TIR LO MAL RAL}
 
 // Death
 ItemDisplay[(7wa OR 7gd OR 7fb) NMAG ETH !RW SOCK=5]: %RED%[DEATH] %WHITE%[ETH] %GRAY%%NAME% %ORANGE%[%SOCKETS%] %GOLD%(%PRICE%){%RED%[RW] Death: %WHITE%HEL EL VEX ORT GUL}
@@ -225,16 +229,20 @@ ItemDisplay[(7wa OR 7gd OR 7p7) NMAG  ETH !RW SOCK=6]: %RED%[BOTD] %WHITE%[ETH] 
 
 // Last Wish
 ItemDisplay[(7cr OR 7wa) NMAG !ETH !RW SOCK=6]: %RED%[LAST WISH] %GRAY%%NAME% %ORANGE%[%SOCKETS%] %GOLD%(%PRICE%){%RED%[RW] Fortitude: %WHITE%JAH MAL JAH SUR JAH BER}
+ItemDisplay[7cr          NMAG  ETH !RW SOCK=6]: %RED%[LAST WISH] %WHITE%[ETH] %GRAY%%NAME% %ORANGE%[%SOCKETS%] %GOLD%(%PRICE%){%RED%[RW] Fortitude: %WHITE%JAH MAL JAH SUR JAH BER}
 
 // Rift
+ItemDisplay[wsp NMAG !ETH !RW SOCK=4]: %RED%[RIFT] %GRAY%%NAME% %ORANGE%[%SOCKETS%] %GOLD%(%PRICE%){%RED%[RW] Rift: %WHITE%HEL KO LEM GUL}
 
 // Chaos
+ItemDisplay[SK271=3 NMAG !ETH !RW (SOCK=0 OR SOCK=3) 9hw]: %RED%[CHAOS] %GRAY%%NAME% %ORANGE%[%SOCKETS%] %GOLD%(%PRICE%){%RED%[RW] Chaos: %WHITE%FAL OHM UM}
 
 // Oath
+ItemDisplay[(7wa OR 7gd OR 7fb) NMAG ETH !RW SOCK=4]: %RED%[OATH] %WHITE%[ETH] %GRAY%%NAME% %ORANGE%[%SOCKETS%] %GOLD%(%PRICE%){%RED%[RW] Oath: %WHITE%SHAEL PUL MAL LUM}
 
 // Passion
-
-// Harmony / Ice
+ItemDisplay[7cr NMAG !ETH !RW SOCK=4]: %RED%[PASSION] %GRAY%%NAME% %ORANGE%[%SOCKETS%] %GOLD%(%PRICE%){%RED%[RW] Passion: %WHITE%DOL ORT ELD LEM}
+ItemDisplay[7cr NMAG  ETH !RW SOCK=4]: %RED%[PASSION] %WHITE%[ETH] %GRAY%%NAME% %ORANGE%[%SOCKETS%] %GOLD%(%PRICE%){%RED%[RW] Passion: %WHITE%DOL ORT ELD LEM}
 
 /////////////////////////
 // Bases - Armors
